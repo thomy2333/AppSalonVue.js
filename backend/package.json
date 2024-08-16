@@ -1,0 +1,25 @@
+{
+  "name": "app_salon_backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend para AppSalon",
+  "main": "index.js",
+  "scripts": {
+    "start": " nodemon index.js",
+    "seed:import": "node data/seed.js --import",
+    "seed:destroy": "node data/seed.js --destroy"
+  },
+  "author": "Juan Thomas Reyes Bodo",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.1",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "^6.9.13"
+  }
+}
